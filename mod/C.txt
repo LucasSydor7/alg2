@@ -1,0 +1,103 @@
+1. Função: É como uma receita, você da os ingredientes certos que seriam os argumentos e parametros, e a função te da o resultado final(retorno). 
+Por exemplo, a função somar recebe dois numeros e te da a soma deles
+
+2.Argumentos: É quando voce chama uma função, você precisa fornecer os ingredientes necessarios para que ela funcione
+esses ingredientes seriam os argumentos no caso.
+
+3.As funcoes podem ser categorizadas de varias maneiras mas as principais estao relacionadas ao 
+seu proposito e ao tipo de valor que elas retornam
+
+3.1.Funções puras: São funções que realizam cálculos e retornam um valor, sem causar efeitos colaterais (ou seja, não modificam dados fora de seu escopo).
+
+3.2.Funções com efeitos colaterais: Além de realizar cálculos, podem modificar variáveis globais, estruturas de dados ou interagir com dispositivos externos (como a tela ou um arquivo).
+
+3.3.Funções com retorno: São as funções que, após realizar seus cálculos, retornam um valor específico. O tipo desse valor pode ser qualquer tipo de dado válido em C/C++ (int, float, double, char, struct, etc.).
+
+3.4.Funções do tipo void: Essas funções não retornam nenhum valor. Seu principal objetivo é executar uma ação, como imprimir algo na tela, modificar um valor passado por referência ou realizar alguma operação de entrada/saída.
+
+4.Quando declaramos uma função com o tipo de retorno void, estamos indicando que ela não fornecerá nenhum valor de volta para o ponto onde foi chamada. Em outras palavras, a função executa suas tarefas e "retorna ao vazio".
+
+7. Calculando a Área de um Círculo:
+Imagine que você quer construir uma torre redonda em seu reino. Para isso, você precisa calcular a área do terreno. A função "calcularAreaCirculo" seria o seu feitiço para isso.
+
+#include <iostream>
+
+using namespace std;
+
+float calcularAreaCirculo(float raio) {
+    return 3.14159 * raio * raio;
+}
+
+int main() {
+    float raio;
+
+    cout << "Digite o raio do círculo: ";
+    cin >> raio;
+
+    float area = calcularAreaCirculo(raio);
+    cout << "A área do círculo é: " << area << endl;
+
+    return 0;
+}
+
+8.Verificando se um Ano é Bissexto:
+Para planejar uma festa grandiosa, você precisa saber se o ano é bissexto para acertar a data. A função "ehBissexto" te ajuda nessa tarefa.
+#include <iostream>
+
+using namespace std;
+
+bool ehBissexto(int ano) {
+    return (ano % 4 == 0 && ano % 100 != 0) || ano % 400 == 0;
+}
+
+int main() {
+    int ano;
+
+    cout << "Digite um ano: ";
+    cin >> ano;
+
+    if (ehBissexto(ano)) {
+        cout << ano << " é um ano bissexto. Possui 366 dias." << endl;
+    } else {
+        cout << ano << " não é um ano bissexto. Possui 365 dias." << endl;
+    }
+
+    return 0;
+}
+
+9.Convertendo Temperatura:
+Você está planejando uma viagem e precisa converter a temperatura de Celsius para Fahrenheit. A função "celsiusParaFahrenheit" te ajuda nessa aventura.
+#include <iostream>
+
+using namespace std;
+
+float celsiusParaFahrenheit(float celsius) {
+    return celsius * 9/5 + 32;
+}
+
+int main() {
+    float celsius, fahrenheit;
+    char escala;
+
+    cout << "Digite a temperatura em Celsius: ";
+    cin >> celsius;
+
+    cout << "Deseja converter para Fahrenheit (F) ou Kelvin (K)? ";
+    cin >> escala;
+
+    switch (escala) {
+        case 'F':
+        case 'f':
+            fahrenheit = celsiusParaFahrenheit(celsius);
+            cout << celsius << "°C equivalem a " << fahrenheit << "°F." << endl;
+            break;
+        case 'K':
+        case 'k':
+            cout << celsius << "°C equivalem a " << celsius + 273.15 << "K." << endl;
+            break;
+        default:
+            cout << "Escala inválida." << endl;
+    }
+
+    return 0;
+}
