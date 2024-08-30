@@ -1,0 +1,4 @@
+Linha 4: a --> 8 o valor de x é dobrado dentro da função
+Linha 5: b --> 7 o valor de y é incrementado em 5 dentro da função, mas essa mudança não afeta a variável original
+Linha 11: x --> 8 o valor de x é modificado pela funcao
+Linha 12: y --> 2 o valor de y não muda

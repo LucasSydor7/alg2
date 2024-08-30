@@ -1,0 +1,5 @@
+A linha 7 vai mostrar: Valor de a: 0 - valor de b: 5
+
+A linha 9 vai mostrar: Valor de a: 5 - valor de b: 5
+
+a função muda_primeiro pega o valor de b e coloca em a.

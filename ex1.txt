@@ -1,0 +1,3 @@
+na linha 2 serão mostrados os valores originais de x,y e z
+na linha 6 sera mostrado a soma dos valores com 100
+na linha 12 mostra os valores originais de a,b e c

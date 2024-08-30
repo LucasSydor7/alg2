@@ -1,0 +1,6 @@
+Linha 2:ta dentro da função exibe_e_altera imprime os valores originais das variáveis apontadas por n1, n2 e n3, os ponteiros recebem os endereços de a, b e c
+e retorna a saída 1 2 3
+
+Linha 6:também ta dentro da função exibe_e_altera. Ela imprime os valores modificados das variáveis apontadas por n1, n2 e n3, os valores são alterados permanentemente.
+
+Linha 12: Esta linha está na função main. Ela imprimirá os valores de a, b e c, a função exibe_e_altera modificou as variáveis originais a saída vai mostrar essas mudanças

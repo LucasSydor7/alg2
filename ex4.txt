@@ -1,0 +1,7 @@
+Linha 11: Antes de chamar por_valor: x = 2, y = 4, z = 6 (mostra os valores originais)
+
+Linha 13: Depois de chamar por_valor: x = 2, y = 4, z = 6 (a função por_valor não altera as variáveis originais)
+
+Linha 14: Antes de chamar por_ref: x = 2, y = 4, z = 6 (os valores continuam os mesmos)
+
+Linha 16: Depois de chamar por_ref: x = 0, y = 0, z = 0 (a função por_ref zera as variáveis originais)

@@ -1,0 +1,4 @@
+com os valores de entrada de a e b sendo 2 e 5
+a fução soma vai calcular a soma de todos os numeros inteiros entre a e b, com esses valores dados.
+
+B - sim, é possivel, o codigo utiliza ponteiro para ler um valor e armazenar na variavel "z".
