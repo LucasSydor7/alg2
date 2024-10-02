@@ -1,0 +1,10 @@
+C- O endereço do primeiro elemento do vetor 
+2-o valor de y após a execução do programa é 4.
+3- V, V, V
+4- Atribui o valor 10 para a variável x.
+5- E. Valor de pb - pa:
+O valor apresentado na linha 7 será 9.
+pc1: 1001
+pc2: 1000
+pc3: 1004
+pc4: 999
