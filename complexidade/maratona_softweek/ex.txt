@@ -1,0 +1,13 @@
+1. formula de bhaskara - o algoritmo da formula de bhaskara
+é bem simples, e o tempo de execução do codigo para qualquer entrada é o mesmo
+então ele utiliza a complexidade constante.
+
+2. Tabuleiro de xadrez - utiliza a complexidade O(N)
+
+3. Estojo de Joias - Utiliza a complexidade O(N^2)
+
+4- Contando Ovelhas - Utiliza a complexidade O(N) pois é linear ao numero de Ovelhas
+
+5- Senha da Vo Zinha - Utiliza a complexidade Logaritmica.
+
+6- Zero para cancelar - Utiliza a complexidade O(N).
